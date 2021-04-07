@@ -40,11 +40,11 @@ class _HomeState extends State<Home> {
                         top: 11,
                         right: 15,
                       ),
-                      hintText: "Search",
+                      hintText: "Try typing your name...",
                     ),
                   ),
                 )
-              : Text("My Robot"),
+              : Text("My Robo"),
           actions: [
             isSearching
                 ? IconButton(
